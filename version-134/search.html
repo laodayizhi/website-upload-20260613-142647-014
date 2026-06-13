@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索 - 日韩电视剧在线</title>
+  <meta name="description" content="日韩电视剧在线搜索页，可按片名、地区、类型、年份和题材查找高清影视作品。">
+  <meta name="keywords" content="日韩电视剧,韩剧在线观看,日剧免费,高清电视剧,追剧,免费影视">
+  <meta name="renderer" content="webkit">
+  <meta name="applicable-device" content="pc,mobile">
+  <meta property="og:title" content="搜索 - 日韩电视剧在线">
+  <meta property="og:description" content="日韩电视剧在线搜索页，可按片名、地区、类型、年份和题材查找高清影视作品。">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <div class="header-row">
+      <a class="logo" href="index.html" aria-label="日韩电视剧在线">
+        <span class="logo-mark">▶</span>
+        <span class="logo-text">日韩电视剧在线</span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="ranking.html">排行榜</a>
+        <a href="movies.html">片库</a>
+      </nav>
+      <div class="header-actions">
+        <form class="search-form site-search" data-prefix="" action="search.html">
+          <input type="search" name="q" placeholder="搜索影视作品..." autocomplete="off">
+          <button type="submit" aria-label="搜索">⌕</button>
+        </form>
+        <button class="menu-button" type="button" data-menu-button aria-expanded="false" aria-label="打开菜单">☰</button>
+      </div>
+    </div>
+    <div class="mobile-panel" data-mobile-menu>
+      <form class="search-form site-search" data-prefix="" action="search.html">
+        <input type="search" name="q" placeholder="搜索影视作品..." autocomplete="off">
+        <button type="submit" aria-label="搜索">⌕</button>
+      </form>
+      <nav class="mobile-nav" aria-label="移动导航">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="ranking.html">排行榜</a>
+        <a href="movies.html">片库</a>
+      </nav>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="container page-hero-card">
+      <div class="breadcrumb"><a href="index.html">首页</a><span>›</span><span>搜索</span></div>
+      <h1>搜索影视作品</h1>
+      <p>输入片名、地区、类型、年份或题材关键词，快速找到想看的影视内容。</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h2 class="search-results-title" data-search-title>热门片库</h2>
+      <div class="filter-empty" data-search-empty>没有找到匹配的影片</div>
+      <div class="movie-grid" data-search-results></div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="logo" href="index.html">
+        <span class="logo-mark">▶</span>
+        <span class="logo-text">日韩电视剧在线</span>
+      </a>
+      <p>精选日韩电视剧、热门电影与高清剧集内容，畅享流畅追剧体验。</p>
+    </div>
+    <nav class="footer-links" aria-label="底部导航">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="ranking.html">排行榜</a>
+      <a href="movies.html">片库</a>
+    </nav>
+  </div>
+</footer>
+<script src="assets/site-data.js"></script>
+<script src="assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
